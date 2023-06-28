@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailSurahActivity">
+
+    <TextView
+        android:id="@+id/tvIDSurah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Dinamakan Ummul Qur'an (induk Al Qur'an) atau Ummul Kitaab(induk Al Kitaab) karena merupakan induk bagi semua isi Al Qur'an serta menjadi inti sari kandungan Al Qur'an dan karena ia wajib dibaca pada tiap-tiap shalat. Dinamakan pula As Sab'ul matsaany (tujuh yang berulang-ulang) karena ayatnya berjumlah tujuh dan dibaca berulang-ulang dalam shalat"
+        />
+
+    <Button
+        android:id="@+id/tvAudio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewAyat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
